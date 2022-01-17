@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+backend/node_modules
+# dependencies
+neo_store/node_modules
+neo_store/.pnp
+neo_store/.pnp.js
+
+# testing
+neo_store/coverage
+
+# production
+neo_store/build
+
+# misc
+neo_store/.DS_Store
+neo_store/.env.local
+neo_store/.env.development.local
+neo_store/.env.test.local
+neo_store/.env.production.local
+
+neo_store/npm-debug.log*
+neo_store/yarn-debug.log*
+neo_store/yarn-error.log*
