@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import ErrorBoundary from "./components/ErrorBoundry"
 import "./App.css"
+
 const Login = lazy(() => import('./components/Login'))
 const Registration = lazy(() => import('./components/Registration'))
 const Cart = lazy(() => import('./components/Cart'))
